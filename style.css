@@ -82,6 +82,8 @@ input {
     height: 2.5rem;
     border: none;
     background-color: #e2e8f0;
+    padding-left: 1rem;
+    font-size: 18px
 }
 
 .header4 {
@@ -99,6 +101,12 @@ input {
     color: white;
     font-weight: bolder;
     font-size: 18px;
+}
+
+button:hover {
+    filter: brightness(0.8);
+    /* transform: scale(1.1); */
+    cursor: pointer;
 }
 
 .sidebar {
@@ -134,7 +142,7 @@ input {
 }
 
 .sidebar img {
-    width: 40px;
+    width: 30px;
     filter: invert(99%) sepia(0%) saturate(5850%) hue-rotate(185deg) brightness(117%) contrast(100%);
 }
 
@@ -144,6 +152,12 @@ input {
     align-items: center;
     gap: 10px;
     justify-content: flex-start;
+}
+
+.sidebar li:hover {
+    transform: scale(1.04);
+    cursor: pointer;
+    text-decoration: underline;
 }
     
 .article {
@@ -182,6 +196,12 @@ input {
     display: grid;
     grid-template-rows: 3fr 1fr;
     box-shadow: 1px 1px 5px gray;
+}
+
+.card:hover {
+    transform: scale(1.008);
+    cursor: pointer;
+    box-shadow: 1px 1px 10px gray;
 }
 
 .card h2 {
